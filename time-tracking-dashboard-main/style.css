@@ -5,7 +5,6 @@
   }
   
   :root {
-    /* colors */
     --neutral-1: hsl(226, 43%, 10%);
     --neutral-2: hsl(235, 46%, 20%);
     --neutral-3: hsl(235, 45%, 61%);
@@ -20,7 +19,6 @@
     --purple :hsl(264, 64%, 52%);
     --yellow :hsl(43, 84%, 65%);
   
-    /* templating for cards */
     --bg: var(--neutral-2);
     --time: 200ms;
     --ease: ease-in-out;
@@ -96,7 +94,7 @@
   
   .card--lg {
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 3rem;
   }
   
   .timecard .card--lg {
